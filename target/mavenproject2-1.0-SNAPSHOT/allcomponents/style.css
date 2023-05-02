@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+body{
+  margin: 0;
+ 
+    padding: 0;
+   
+    
+    background-position : center;
+    background-size : cover;
+}
+.hero{
+   min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('banner.jpg');
+   
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.search-field{
+    margin-bottom: 50px;
+    padding: 10px;
+    border:none;
+    
+    outline:none;
+}
+.business
+{
+    width:300px;
+    height:50px;
+}
+.location
+{
+    width:200px;
+    height:50px;
+}
+h1{
+    color:white;
+    margin-bottom:70px;
+    font-size:45px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.search-btn{
+    height: 50px;
+    width:150px;
+    background:#ffeb3b;
+    border:none;
+    color:#000;
+   
+}
+.search-btn:hover{
+   background: #ffc107;
+   cursor:pointer;
+
+}
+.form-box
+{
+    justify-content:center;
+    background: rgba(0,0,0,0.5);
+    padding: 30px 50px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#58BDAB;
+    padding:0 10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    color: #0b0b0b;
+}
+.navigation ul{
+list-style: none;
+}
+.header .navigation ul li ul{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background: aqua;
+    display: none;
+}
+.header .navigation ul li{
+    float:left;
+    position: relative;
+}
+.header .navigation ul li a{
+   font-size:20px;
+    color:var(--color-white);
+    text-decoration: none;
+    padding: 20px;
+    display:block;
+    
+    transition:all .2s ease;
+}
+.header .navigation ul li a:hover{
+    background: skyblue;
+    
+}
+.header .navigation ul li ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.header .navigation ul li ul li ul{
+    position: absolute;
+    top:0;
+    right: 300px;
+    
+}
+.header .navigation ul li ul li {
+    width:100%;
+    border-top:1px solid aqua;
+}
+.header .navigation ul li:hover > ul{
+    display:initial;
+}
+.header .navigation ul li ul li span{
+    float:right;
+    /* color:var(--color-white); */
+    /* background:aqua; */
+    padding:5px 10px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+/*Button menu--------------------------------------------------------------------------*/
+.childbox {
+    width: 400px;
+    /* padding: 3%; */
+    height: 200px;
+  align-items: center;
+  text-align:center;
+  
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+  border-color: black;
+  text-decoration: none;
+  /* padding-left: 10px; */
+  /* justify-content: space-between; */
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  
+  }
+  .childbox:hover{
+  box-shadow: 0px 5px 15px rgb(5, 5, 5);
+  }
+  .childbox-image{
+    width: 100%;
+    height: 100%;
+    background-position : center;
+    background-size : cover; 
+  }
+  .box-container {
+    display: flex;
+    height: 700%;
+    width: 70%;
+    justify-content: center;
+    margin: -90px;
+    margin-left: 12%;
+  margin-right: 12%;
+  border-color: rgb(14, 14, 14);
+  background-color:coral;
+  padding: 10px;
+  box-shadow: 10px 10px rgb(14, 14, 14);
+  color:#FFFFFF;
+  
+  border: 2px solid;
+  }
+  
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+  
+  /*--------------------------------------------------------------*/
+  .sidebar {
+    position: fixed;
+    height: 3000px;
+    width: 70px;
+    transform: translateY(-50%);
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#F8F8F8;
+  }
+  
+  .sidebar a {
+    display: block;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 24px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #F0F0F0;
+  }
+  .sidebar ul li a:hover{
+    background: skyblue;
+    
+}
+  
+  .fa-bell:before {
+    content: "\f0f3";
+  }
+  
+  .fa-envelope:before {
+    content: "\f0e0";
+  }
+  
+  .fa-comments:before {
+    content: "\f086";
+  }
+  
+  .fa-heart:before {
+    content: "\f004";
+  }
+  
+
+  /* backgroud-image : url();
+  bakground-position : center;
+  background-size : cover; */
+  
+ 
