@@ -10,7 +10,7 @@ BookBridge is an end-to-end platform designed to connect users who want to sell 
 
 - **Search and Filters:** Buyers can search for specific books and apply filters based on location, book category, and condition.
 
-- **Contact Directly:** Sellers and buyers can communicate directly within the platform to discuss book availability, delivery options, and other details.
+- **Contact Directly:** Sellers and buyers can communicate directly through Email within the platform to discuss book availability, delivery options, and other details.
 
 - **Book Delivery:** Users can arrange for book delivery or meetups based on their preferences and proximity.
 
